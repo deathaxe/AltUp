@@ -1,12 +1,12 @@
 
 [
 	{
-		"keys": ["alt+up"], "command": "run_macro_file", "args": {
+		"keys": ["alt", "alt+up"], "command": "run_macro_file", "args": {
 			"file": "res://Packages/AltUp/Prev Paragraph.sublime-macro"
 		}
 	},
 	{
-		"keys": ["alt+down"], "command": "run_macro_file", "args": {
+		"keys": ["alt", "alt+down"], "command": "run_macro_file", "args": {
 			"file": "res://Packages/AltUp/Next Paragraph.sublime-macro"
 		}
 	},

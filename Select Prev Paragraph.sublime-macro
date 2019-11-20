@@ -1,0 +1,5 @@
+[
+	{ "command": "move", "args": {"extend": true, "by": "lines", "forward": false} },
+	{ "command": "move", "args": {"extend": true, "by": "stops", "empty_line": true, "forward": false} },
+	{ "command": "move", "args": {"extend": true, "by": "lines", "forward": true} },
+]

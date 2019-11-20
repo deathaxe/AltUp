@@ -1,48 +1,23 @@
 
 [
-
-	{"keys": ["alt+up"], "command": "run_multiple_commands",
-		"args": {
-			"commands":
-			[
-				{ "command": "move", "args": {"by": "lines", "forward": false} },
-				{ "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
-				{ "command": "move", "args": {"by": "lines", "forward": true} },
-				{ "command": "move_to", "args": {"to": "bol", "extend": false} }
-			],
+	{
+		"keys": ["alt+up"], "command": "run_macro_file", "args": {
+			"file": "res://Packages/AltUp/Prev Paragraph.sublime-macro"
 		}
 	},
-
-	{"keys": ["alt+down"], "command": "run_multiple_commands",
-		"args": {
-			"commands":
-			[
-				{ "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
-				{ "command": "move", "args": {"by": "lines", "forward": true} },
-				{ "command": "move_to", "args": {"to": "bol", "extend": false} }
-			],
+	{
+		"keys": ["alt+down"], "command": "run_macro_file", "args": {
+			"file": "res://Packages/AltUp/Next Paragraph.sublime-macro"
 		}
 	},
-
-	{"keys": ["alt+shift+up"], "command": "run_multiple_commands",
-		"args": {
-			"commands":
-			[
-				{ "command": "move", "args": {"extend": true, "by": "lines", "forward": false} },
-				{ "command": "move", "args": {"extend": true, "by": "stops", "empty_line": true, "forward": false} },
-				{ "command": "move", "args": {"extend": true, "by": "lines", "forward": true} },
-			],
+	{
+		"keys": ["alt+shift+up"], "command": "run_macro_file", "args": {
+			"file": "res://Packages/AltUp/Select Prev Paragraph.sublime-macro"
 		}
 	},
-
-	{"keys": ["alt+shift+down"], "command": "run_multiple_commands",
-		"args": {
-			"commands":
-			[
-				{ "command": "move", "args": {"extend": true, "by": "stops", "empty_line": true, "forward": true} },
-				{ "command": "move", "args": {"extend": true, "by": "lines", "forward": true} },
-			],
+	{
+		"keys": ["alt+shift+down"], "command": "run_macro_file", "args": {
+			"file": "res://Packages/AltUp/Select Next Paragraph.sublime-macro"
 		}
-	},
-
+	}
 ]
